@@ -1,1 +1,773 @@
-This official web site for xFactureOS Project
+<html>
+
+    <head>
+
+        <meta charset="utf-8"/>
+
+        <title>Time will say goodbye - xFactureOS</title>
+
+        <meta name="description" content="xFactureOS is a Russian operating system based on advanced technologies and machine learning."/> 
+
+        <style>
+
+            @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+            @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&family=Zen+Kurenaido&display=swap');
+
+            body {
+
+                margin: 0px;
+
+                background-color: #37474F;
+
+                font-family: 'Zen Kurenaido', sans-serif;
+
+                color: #fff;
+
+            }
+
+            body::-webkit-scrollbar {
+
+                display: none;
+
+            }
+
+            header {
+
+                position: fixed;
+
+                width: 100%;
+
+                top: 0px;
+
+                height: 40px;
+
+                background-color: #263238;
+
+                z-index: 2;
+
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+            }
+
+            header > .logo {
+
+                position: absolute;
+
+                left: 0px;
+
+                background-image: url(start.png);
+
+                width: 30px;
+
+                height: 30px;
+
+                margin: 5px;
+
+                background-size: cover;
+
+            }
+
+            header > menu {
+
+                position: absolute;
+
+                right: 0px;
+
+            }
+
+            header > menu > ul {
+
+                margin-top: 0px;
+
+            }
+
+            header > menu > ul > li {
+
+                list-style-type: none;
+
+                float: left;
+
+                margin-top: -12px;
+
+                margin-right: 10px;
+
+            }
+
+            header > menu > ul > li > a {
+
+                text-decoration: none;
+
+                color: #fff;
+
+                font-size: 20px;
+
+            }
+
+            content {
+
+                margin-top: 150px;
+
+                display: block;
+
+                width: 1200px;
+
+                position: relative;
+
+                left: 50%;
+
+                margin-left: -600px;
+
+                padding-bottom: 100px;
+
+            }
+
+            content > section {
+                
+                font-family: 'Urbanist', sans-serif;
+
+                margin-bottom: 30px;
+
+            }
+
+            content > section > h1 {
+
+                width: 100%;
+
+                text-align: center;
+
+                font-size: 50px;
+
+            }
+
+            content > section > h3 {
+
+                width: 100%;
+
+                text-align: center;
+
+                font-size: 30px;
+
+            }
+
+            content > section > p {
+
+                text-align: center;
+
+                margin-top: 30px;
+
+                font-size: 20px;
+
+            }
+
+            content > section > img {
+
+                object-fit: cover;
+
+                width: 700px;
+
+                height: 670px;
+
+                position: relative;
+
+                left: 50%;
+
+                margin-left: -350px;
+
+                margin-top: -40px;
+
+            }
+
+            content > section > wapper {
+
+                display: block;
+
+                width: 700px;
+
+                height: 200px;
+
+                border-radius: 10px;
+
+                background-color: #263238;
+
+                position: relative;
+
+                left: 50%;
+
+                margin-left: -350px;
+
+            }
+
+            content > section > wapper > h3 {
+
+                width: 100%;
+
+                text-align: center;
+
+                padding-top: 40px;
+
+            }
+
+            content > section > wapper > p {
+
+                position: relative;
+
+                width: 90%;
+
+                left: 5%;
+
+                padding-top: 20px;
+
+                text-align: justify;
+
+            }
+
+            content > section > timeline {
+
+                display: block;
+
+                position: relative;
+                
+                max-width: 1200px;
+
+                margin: 0 auto;
+
+            }
+
+            content > section > timeline::after {
+
+                content: '';
+
+                position: absolute;
+
+                width: 6px;
+
+                background-color: #fff;
+
+                top: 0px;
+
+                bottom: 0px;
+
+                left: 50%;
+
+                margin-left: -3px;
+
+                border-bottom-left-radius: 2px;
+
+                border-bottom-right-radius: 2px;
+
+                border-top-right-radius: 2px;
+
+                border-top-left-radius: 2px;
+
+            }
+
+            content > section > timeline > container {
+
+                display: block;
+
+                padding: 10px 40px;
+
+                position: relative;
+
+                background-color: inherit;
+
+                width: 520px;
+
+            }
+
+            content > section > timeline > container::after {
+
+                content: '';
+
+                position: absolute;
+
+                width: 25px;
+
+                height: 25px;
+
+                right: -17px;
+
+                background-color: #fff;
+
+                border: 4px solid #263238;
+
+                top: 15px;
+
+                border-radius: 50%;
+
+                z-index: 1;
+
+            }
+
+            content > section > timeline > .left {
+
+                left: 0px;
+
+            }
+
+            content > section > timeline > .left::before {
+
+                content: " ";
+
+                height: 0px;
+
+                position: absolute;
+
+                top: 22px;
+
+                width: 0px;
+
+                z-index: 1;
+
+                right: 30px;
+
+                border: medium solid #fff;
+
+                border-width: 10px 0 10px 10px;
+
+                border-color: transparent transparent transparent #fff;
+
+            }
+
+            content > section > timeline > .right {
+
+                left: 50%;
+
+            }
+
+            content > section > timeline > .right::before {
+
+                content: " ";
+
+                height: 0px;
+
+                position: absolute;
+
+                top: 22px;
+
+                width: 0;
+
+                z-index: 1;
+
+                left: 30px;
+
+                border: medium solid #fff;
+
+                border-width: 10px 10px 10px 0;
+
+                border-color: transparent #fff transparent transparent;
+
+            }
+
+            content > section > timeline > .right::after {
+
+                left: -16px;
+
+            }
+
+            content > section > timeline > container > text {
+
+                display: block;
+
+                padding: 20px 30px;
+
+                background-color: #263238;
+
+                position: relative;
+
+                border-radius: 6px;
+
+            }
+
+            footer {
+
+                position: fixed;
+
+                bottom: 0px;
+
+                width: 500px;
+
+                height: 30px;
+
+                background-color: #263238;
+
+                border-top-right-radius: 10px;
+
+                border-top-left-radius: 10px;
+
+                left: 50%;
+
+                margin-left: -250px;
+
+                z-index: 2;
+
+            }
+
+            footer > menu {
+
+                margin-top: -50px;
+
+                margin-left: -30px;
+
+            }
+
+            footer > menu > ul > li {
+
+                list-style-type: none;
+
+                float: left;
+
+                margin-right: 20px;
+
+            }
+
+            footer > menu > ul > li > .vk {
+
+                width: 40px;
+
+                height: 40px;
+
+                background-image: url(vk.png);
+
+                background-size: cover;
+
+                margin-top: 10px;
+
+            }
+
+            footer > menu > ul > li > .twitter {
+
+                width: 40px;
+
+                height: 40px;
+
+                background-image: url(twitter.png);
+
+                background-size: cover;
+
+                margin-top: 10px;
+
+            }
+
+            footer > menu > ul > li > .facebook {
+
+                width: 40px;
+
+                height: 40px;
+
+                background-image: url(facebook.png);
+
+                background-size: cover;
+
+                margin-top: 10px;
+
+            }
+
+            footer > menu > ul > li > .google {
+
+                width: 40px;
+
+                height: 40px;
+
+                background-image: url(google.png);
+
+                background-size: cover;
+
+                margin-top: 10px;
+
+            }
+
+            footer > menu > ul > li > .dzen {
+
+                width: 40px;
+
+                height: 40px;
+
+                background-image: url(dzen.png);
+
+                background-size: cover;
+
+                margin-top: 10px;
+
+            }
+
+            footer > menu > ul > li > .aura {
+
+                width: 40px;
+
+                height: 40px;
+
+                background-image: url(aura.png);
+
+                background-size: cover;
+
+                margin-top: 10px;
+
+            }
+
+            footer > menu > ul > li > .boosty {
+
+                width: 40px;
+
+                height: 40px;
+
+                background-image: url(boosty.png);
+
+                background-size: cover;
+
+                margin-top: 10px;
+
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <div class="logo"></div>
+
+            <menu>
+
+                <ul>
+
+                    <li>
+
+                        <a href="https://github.com/xfactureos">Github</a>
+
+                    </li>
+
+                </ul>
+
+            </menu>
+
+        </header>
+
+        <content>
+
+            <section>
+
+                <h1>xFactureOS</h1>
+
+                <p>An operating system with great potential.</p>
+
+                <img src="screen.png"/>
+
+            </section>
+
+            <section>
+
+                <wapper>
+
+                    <h3>What's new in Z Edition?</h3>
+
+                    <p>An updated core xCore. New system shell and transfer interface. Voice Assistant and VM Toolkit for Developers. And much more.</p>
+
+                </wapper>
+
+            </section>
+
+            <section>
+
+               <h3>It's time to say goodbye</h3>
+
+               <p>A bit of history.</p>
+
+               <timeline>
+
+                    <container class="left">
+
+                        <text>
+
+                            <h2>07.2015</h2>
+
+                            <p>Rework and restructuring of the xCore project in xFactureOS.</p>
+
+                        </text>
+
+                    </container>
+
+                    <container class="right">
+
+                        <text>
+
+                            <h2>12.2015</h2>
+
+                            <p>First version for developers.</p>
+
+                        </text>
+
+                    </container>
+
+                    <container class="left">
+
+                        <text>
+
+                            <h2>2016</h2>
+
+                            <p>Redesign of the interface, availability of the HS+ programming language for third-party platforms.</p>
+
+                        </text>
+
+                    </container>
+
+                    <container class="right">
+
+                        <text>
+
+                            <h2>2017</h2>
+
+                            <p>Development and support of the Cloud edition.</p>
+
+                        </text>
+
+                    </container>
+
+                    <container class="left">
+
+                        <text>
+
+                            <h2>2018</h2>
+
+                            <p>Failed release xFactureOS Cloud, the emergence of xFactureOS ID services.</p>
+
+                        </text>
+
+                    </container>
+
+                    <container class="right">
+
+                        <text>
+
+                            <h2>2019</h2>
+
+                            <p>Updating the HS+ programming language. Beginning of Areion UI development. The platform "xFactureOS Platform" is presented. Big changes in xFactureOS Touch. Graphic specification "Canary Design".</p>
+
+                        </text>
+
+                    </container>
+
+                    <container class="left">
+
+                        <text>
+
+                            <h2>2020</h2>
+
+                            <p>Development and implementation of the Volga edition. Updating the Github repository. Intermediate edition X on the new core xCore. Development of a new programming language for xFactureOS.</p>
+
+                        </text>
+
+                    </container>
+
+                    <container class="right">
+
+                        <text>
+
+                            <h2>2021</h2>
+
+                            <p>Release xCore on Github. Development of a new revision Z. The first xCore-based distribution, Bezur OS, is launched. Altair data encryption technology. First entertainment apps for xFactureOS, in partnership with 2PX.</p>
+
+                        </text>
+
+                    </container>
+
+                    <container class="left">
+
+                        <text>
+
+                            <h2>10.2021</h2>
+
+                            <p>Suspension of xFactureOS development until 2030. Cause: Inability to continue development due to financial instability.</p>
+
+                        </text>
+
+                    </container>
+
+                    <container class="right">
+
+                        <text>
+
+                            <h2>2022 - 2030</h2>
+
+                            <p>TODO: Reorganizing the xFactureOS Project.</p>
+
+                        </text>
+
+                    </container>
+
+               </timeline>
+
+            </section>
+
+            <section>
+
+                <wapper>
+
+                    <p>Thank you for being with us all these years and watching and participating in the development and testing. <br/> <br/> We hope that the previous roster will cope with all the difficulties in this period from 2022 to 2030. <br/> <br/> We also hope to resolve the situation with coronavirus by 2030 in the country and in the world.</p>
+
+                </wapper>
+
+            </section>
+
+        </content>
+
+        <footer>
+
+            <menu>
+
+                <ul>
+
+                    <li>
+
+                        <div class="vk" title="You can find us on VK"></div>
+
+                    </li>
+
+                    <li>
+
+                        <div class="twitter" title="You can find us on Twitter"></div>
+
+                    </li>
+
+                    <li>
+
+                        <div class="facebook" title="You can find us on Facebook"></div>
+
+                    </li>
+
+                    <li>
+
+                        <div class="google" title="You could find us in Google+"></div>
+
+                    </li>
+
+                    <li>
+
+                        <div class="dzen" title="You can find us on Yandex.Dzen"></div>
+
+                    </li>
+
+                    <li>
+
+                        <div class="aura" title="You could find us in Yandex.Aura"></div>
+
+                    </li>
+
+                    <li>
+
+                        <div class="boosty" title="You can find us on Boosty"></div>
+
+                    </li>
+
+                </ul>
+
+            </menu>
+
+        </footer>
+
+    </body>
+
+</html>
